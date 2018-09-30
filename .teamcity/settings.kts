@@ -31,7 +31,7 @@ project {
 }
 
 object Build : BuildType({
-    id("Zevel_Build")
+    id("Build")
     name = "Build test"
 
     vcs {
