@@ -27,11 +27,11 @@ version = "2018.1"
 
 project {
 
-    buildType(Build)
+    buildType(BuildIshay)
 }
 
-object Build : BuildType({
-    id("Build")
+object BuildIshay : BuildType({
+    id("BuildIshay")
     name = "Build test"
 
     vcs {
