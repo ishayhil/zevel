@@ -31,6 +31,7 @@ project {
 }
 
 object Build : BuildType({
+    id("HelloWorld")
     name = "Build test"
 
     vcs {
