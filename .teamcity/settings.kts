@@ -31,7 +31,7 @@ project {
 }
 
 object Build : BuildType({
-    name = "Build"
+    name = "Build  Test"
 
     vcs {
         root(DslContext.settingsRoot)
@@ -40,6 +40,10 @@ object Build : BuildType({
     steps {
         step {
             type = "SBT"
+        }
+
+        script {
+            scriptContent = "echo 'Hello world!'"
         }
     }
 
