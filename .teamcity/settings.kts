@@ -41,6 +41,10 @@ object Build : BuildType({
         step {
             type = "SBT"
         }
+
+        script {
+            command = "echo 'hi'"
+        }
     }
 
     triggers {
